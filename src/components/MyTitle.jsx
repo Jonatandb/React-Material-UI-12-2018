@@ -1,7 +1,7 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
 
-export default function Title({ text, link, type, importation, extra }) {
+export default function MyTitle({ text, link, type, importation, extra }) {
   return (
     <React.Fragment>
       <hr />

@@ -1,11 +1,11 @@
 import React from "react";
-import Title from "../Title.jsx";
+import MyTitle from "../components/MyTitle";
 import Typography from "@material-ui/core/Typography";
 
 export default function TypographyTests() {
   return (
     <>
-      <Title
+      <MyTitle
         text="Typography"
         link="https://material-ui.com/style/typography/"
         importation={'import Typography from "@material-ui/core/Typography";'}

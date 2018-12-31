@@ -4,19 +4,20 @@ import "./styles.css";
 
 import CssBaseline from "@material-ui/core/CssBaseline";
 
-import Title from "./Title";
-import { TypographyTests } from "./Tests";
+import MyTitle from "./components/MyTitle";
+import { TypographyTests, GridTests, CssBaselineTests } from "./Tests";
 
 function App() {
   return (
     <div className="App">
       <CssBaseline />
-      <Title
+      <MyTitle
         text="The definitive guide to React Material"
         link="https://blog.logrocket.com/the-definitive-guide-to-react-material-d730c8a3e8ba"
         extra="Jonatandb tests!"
         type="h3"
       />
+      <CssBaselineTests />
       <TypographyTests />
     </div>
   );
