@@ -2,26 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./styles.css";
 
-import Typography from "@material-ui/core/Typography";
 import CssBaseline from "@material-ui/core/CssBaseline";
 
-const Title = ({ text, link, extra, type }) => {
-  return (
-    <React.Fragment>
-      <hr />
-      <Typography
-        variant={type ? type : "h4"}
-        seconcolor="secondary"
-        gutterBottom
-      >
-        <a href={link ? link : "#"} target={link ? "_blank" : ""}>
-          {text ? text : "Tema sin título..."}
-        </a>
-      </Typography>
-      {extra ? <pre>{extra}</pre> : ""}
-    </React.Fragment>
-  );
-};
+import Title from "./Title";
+import { TypographyTests } from "./Tests";
 
 function App() {
   return (
@@ -33,23 +17,9 @@ function App() {
         extra="Jonatandb tests!"
         type="h3"
       />
-      <Title
-        text="Typography"
-        link="https://material-ui.com/style/typography/"
-        extra="gutterBottom hace que un Typography tenga un margen inferior, como esta línea."
-      />
-      <Typography variant="h6" color="inherit">
-        Typography variant="h6" color="inherit"
-      </Typography>
-      <Typography variant="h5" color="primary" gutterBottom>
-        Typography variant="h5" color="primary"
-      </Typography>
-      <Typography variant="h4" color="secondary">
-        Typography variant="h4" color="secondary"
-      </Typography>
+      <TypographyTests />
     </div>
   );
 }
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+ReactDOM.render(<App />, document.getElementById("root"));
