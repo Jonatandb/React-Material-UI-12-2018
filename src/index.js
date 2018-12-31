@@ -19,6 +19,7 @@ function App() {
       />
       <CssBaselineTests />
       <TypographyTests />
+      <GridTests />
     </div>
   );
 }

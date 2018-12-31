@@ -8,7 +8,10 @@ export default function CssBaselineTests() {
         text="CssBaselineTests"
         link="https://material-ui.com/style/css-baseline/"
         importation='import CssBaseline from "@material-ui/core/CssBaseline";'
-        extra=""
+        extra={`- Requiere: <link
+        rel=\"stylesheet\"
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+      />`}
       />
     </>
   );
