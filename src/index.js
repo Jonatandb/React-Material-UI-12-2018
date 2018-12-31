@@ -5,11 +5,15 @@ import "./styles.css";
 import Typography from "@material-ui/core/Typography";
 import CssBaseline from "@material-ui/core/CssBaseline";
 
-const H4 = ({ text, link, extra }) => {
+const Title = ({ text, link, extra, type }) => {
   return (
     <React.Fragment>
       <hr />
-      <Typography variant="h4" seconcolor="secondary" gutterBottom>
+      <Typography
+        variant={type ? type : "h4"}
+        seconcolor="secondary"
+        gutterBottom
+      >
         <a href={link ? link : "#"} target={link ? "_blank" : ""}>
           {text ? text : "Tema sin título..."}
         </a>
@@ -23,12 +27,13 @@ function App() {
   return (
     <div className="App">
       <CssBaseline />
-      <H4
+      <Title
         text="The definitive guide to React Material"
         link="https://blog.logrocket.com/the-definitive-guide-to-react-material-d730c8a3e8ba"
         extra="Jonatandb tests!"
+        type="h3"
       />
-      <H4
+      <Title
         text="Typography"
         link="https://material-ui.com/style/typography/"
         extra="gutterBottom hace que un Typography tenga un margen inferior, como esta línea."
