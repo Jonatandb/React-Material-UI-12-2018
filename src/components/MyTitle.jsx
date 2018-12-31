@@ -4,7 +4,7 @@ import Typography from "@material-ui/core/Typography";
 export default function MyTitle({ text, link, type, importation, extra }) {
   return (
     <React.Fragment>
-      <hr />
+      <hr style={{ marginTop: "50px" }} />
       <Typography
         variant={type ? type : "h4"}
         seconcolor="secondary"
