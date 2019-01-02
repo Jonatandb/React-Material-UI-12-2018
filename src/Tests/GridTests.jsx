@@ -14,26 +14,26 @@ export default function GridTests() {
       </Typography>
       <ul>
         <li>
-          <Typography variant="caption">It uses Flexbox</Typography>
+          <Typography variant="body1">It uses Flexbox</Typography>
         </li>
         <li>
-          <Typography variant="caption">
+          <Typography variant="body1">
             There are two types of layout: containers and items
           </Typography>
         </li>
         <li>
-          <Typography variant="caption">
+          <Typography variant="body1">
             Item widths are set in percentages, so they’re always fluid and
             sized relative to their parent element
           </Typography>
         </li>
         <li>
-          <Typography variant="caption">
+          <Typography variant="body1">
             Items have padding to create the spacing between individual items.
           </Typography>
         </li>
         <li>
-          <Typography variant="caption">
+          <Typography variant="body1">
             There are five grid breakpoints: xs, sm, md, lg, and xl
           </Typography>
         </li>
