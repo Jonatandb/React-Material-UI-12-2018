@@ -11,13 +11,13 @@ export default function TypographyTests() {
         importation={'import Typography from "@material-ui/core/Typography";'}
         extra="- 'gutterBottom' hace que un Typography tenga un margen inferior, como el h6 siguiente:"
       />
-      <Typography variant="h6" color="inherit">
+      <Typography variant="h6" color="inherit" gutterBottom>
         Typography variant="h6" color="inherit"
       </Typography>
-      <Typography variant="h5" color="primary" gutterBottom>
+      <Typography variant="h5" color="primary">
         Typography variant="h5" color="primary"
       </Typography>
-      <Typography variant="h4" color="secondary" gutterBottom>
+      <Typography variant="h4" color="secondary">
         Typography variant="h4" color="secondary"
       </Typography>
       <br />
