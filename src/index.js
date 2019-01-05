@@ -5,6 +5,7 @@ import "./styles.css";
 import CssBaseline from "@material-ui/core/CssBaseline";
 
 import MyTitle from "./components/MyTitle";
+
 import { TypographyTests, GridTests, CssBaselineTests } from "./Tests";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       />
       <CssBaselineTests />
       <TypographyTests />
+      <hr />
       <GridTests />
     </div>
   );
