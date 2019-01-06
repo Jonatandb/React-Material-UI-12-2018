@@ -35,6 +35,7 @@ function IconsTests(props) {
         text="Icons"
         link="https://material-ui.com/style/icons/"
         extra=""
+        importation={'import SVGIcon from "@material-ui/core/SvgIcon";'}
       />
 
       <Typography variant="body2" align="left">
