@@ -29,6 +29,7 @@ function App() {
       />
       <CssBaselineTests />
       <TypographyTests />
+      <hr />
       <GridTests />
       <IconsTests />
     </div>
