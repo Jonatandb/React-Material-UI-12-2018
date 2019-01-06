@@ -9,6 +9,7 @@ export default function GridTests() {
         text="Grid"
         link="https://material-ui.com/layout/grid/"
         extra=""
+        importation={'import Grid from "@material-ui/core/Grid";'}
       />
       <Typography variant="body2" align="left">
         The grid system features the following:

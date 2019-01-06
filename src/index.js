@@ -6,7 +6,8 @@ import {
   CssBaselineTests,
   TypographyTests,
   GridTests,
-  IconsTests
+  IconsTests,
+  ButtonsTests
 } from "./Tests";
 import "./styles.css";
 
@@ -31,6 +32,7 @@ function App() {
       <TypographyTests />
       <GridTests />
       <IconsTests />
+      <ButtonsTests />
     </div>
   );
 }
