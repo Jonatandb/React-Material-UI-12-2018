@@ -1,6 +1,7 @@
 import React from "react";
 import MyTitle from "../components/MyTitle";
 import Typography from "@material-ui/core/Typography";
+import Grid from "@material-ui/core/Grid";
 export default function GridTests() {
   return (
     <>
@@ -38,6 +39,29 @@ export default function GridTests() {
           </Typography>
         </li>
       </ul>
+      <Grid container spacing={24}>
+        <Grid item xs={12}>
+          <Typography>xs=12</Typography>
+        </Grid>
+        <Grid item xs={12} sm={6}>
+          <Typography>xs=12 sm=6</Typography>
+        </Grid>
+        <Grid item xs={12} sm={6}>
+          <Typography>xs=12 sm=6</Typography>
+        </Grid>
+        <Grid item xs={6} sm={3} md={12}>
+          <Typography>xs=6 sm=3 md=12</Typography>
+        </Grid>
+        <Grid item xs={6} sm={3} md={12}>
+          <Typography>xs=6 sm=3 md=12</Typography>
+        </Grid>
+        <Grid item xs={6} sm={3} md={12}>
+          <Typography>xs=6 sm=3 md=12</Typography>
+        </Grid>
+        <Grid item xs={6} sm={3} md={12}>
+          <Typography>xs=6 sm=3 md=12</Typography>
+        </Grid>
+      </Grid>
     </>
   );
 }

@@ -1,5 +1,6 @@
+import CssBaselineTests from "./CssBaselineTests";
 import TypographyTests from "./TypographyTests";
 import GridTests from "./GridTests";
-import CssBaselineTests from "./CssBaselineTests";
+import IconsTests from "./IconsTests";
 
-export { TypographyTests, GridTests, CssBaselineTests };
+export { CssBaselineTests, TypographyTests, GridTests, IconsTests };
