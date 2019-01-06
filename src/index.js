@@ -2,8 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import MyTitle from "./components/MyTitle";
-
-import { TypographyTests, GridTests, CssBaselineTests } from "./Tests";
+import {
+  CssBaselineTests,
+  TypographyTests,
+  GridTests,
+  IconsTests
+} from "./Tests";
 import "./styles.css";
 
 function App() {
@@ -27,6 +31,7 @@ function App() {
       <TypographyTests />
       <hr />
       <GridTests />
+      <IconsTests />
     </div>
   );
 }
